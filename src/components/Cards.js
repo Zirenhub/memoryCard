@@ -1,8 +1,20 @@
-const Cards = () => {
+const Cards = (props) => {
+  const { handleClick, runes } = props;
+
   return (
-    <div className="cards-container">
+    <div className="cards-container" onClick={handleClick}>
       <div className="first-row">
-        <div className="card-container">
+        {runes
+          .filter((item, index) => index < 9)
+          .map((filteredItem) => {
+            return (
+              <div className="card-container">
+                <p>{filteredItem}</p>
+              </div>
+            );
+          })}
+
+        {/* <div className="card-container">
           <p>𐰀</p>
         </div>
         <div className="card-container">
@@ -28,7 +40,7 @@ const Cards = () => {
         </div>
         <div className="card-container">
           <p>𐰈</p>
-        </div>
+        </div> */}
       </div>
       <div className="second-row">
         <div className="card-container">
