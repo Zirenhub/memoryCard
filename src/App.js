@@ -62,9 +62,6 @@ const App = () => {
   };
 
   useEffect(() => {
-    console.log('runes just updated');
-    console.log(`${clickedRunes} clicked runes`);
-
     updateRunes();
   }, [clickedRunes]);
 
