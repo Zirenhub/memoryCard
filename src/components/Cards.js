@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Cards = (props) => {
   const { handleClick, runes } = props;
 

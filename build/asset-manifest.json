@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9e66e50.css",
+    "main.js": "/static/js/main.c1002c60.js",
+    "static/media/Norse.otf": "/static/media/Norse.d211cb1a5b30ffaa5e5b.otf",
+    "index.html": "/index.html",
+    "main.b9e66e50.css.map": "/static/css/main.b9e66e50.css.map",
+    "main.c1002c60.js.map": "/static/js/main.c1002c60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9e66e50.css",
+    "static/js/main.c1002c60.js"
+  ]
+}
